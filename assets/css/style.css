@@ -1,0 +1,124 @@
+body{
+
+	font-family: helvetica, verdana, sans-serif;
+}
+
+.container{
+	width: 1000px;
+	height: 1800px;
+	background-color: #EEEEEE;
+	margin: 0px auto;
+	position: relative;
+	top: 0px;
+	transform: translate(0,0);
+}
+
+#content{
+	margin: 0px auto;
+	width: 900px;
+	height: 100%;
+}
+
+form{
+	width: 100%;
+	margin: 0px auto;
+}
+
+h1{
+	margin: 10px auto;
+	padding: 5px 10px;
+	width: 900px;
+	color: white;
+	background-color: rgb(100,0,255);
+	border-radius: 20px 20px 0px 0px;
+	text-align: center;
+}
+
+#edit{
+	background-color: #EC971F;
+}
+
+#databaru{
+	background-color: #009900;
+} 
+
+form{
+	text-align: left;
+	margin:auto 0px;
+}
+
+.mine{
+	text-decoration: none;
+	color: white;
+	padding: 6px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+.mine:hover{
+	text-decoration: none;
+	color: yellow;
+}
+
+.delete{
+	background-color: #C00000;
+}
+
+.delete:hover{
+	background-color: #FF0000;
+	
+}
+
+.aksi{
+	background-color: #7030A0;
+}
+
+.aksi:hover{
+	background-color: #AB2598;
+}
+
+.tambah{
+	background-color: #009900;
+	padding: 10px;
+
+}
+
+.tambah:hover{
+	background-color: #00B050;
+}
+
+table.tbdata {
+	border-collapse: collapse;
+	border-spacing: 0;
+	text-align: left;
+	margin: 30px auto;	
+
+}
+
+.center{
+	text-align: center;
+}
+.tbdata th, .tbdata td{
+	border-right: 1px solid #8EA9DB ;
+	border-left: 1px solid #8EA9DB ;
+}
+
+.tbdata th{
+	border-top: solid #203764 3px;
+	font-weight: 900;
+	color: white;
+	background-color: #4472C4 ;
+	padding: 10px 5px;
+}
+
+.tbdata td{
+	padding: 10px 5px;
+	background-color: #D9E1F2;
+	border-bottom: 1px dotted #203764;
+}
+
+.tbdata tr:nth-child(even) td{
+	background-color: white;
+	
+}
+
